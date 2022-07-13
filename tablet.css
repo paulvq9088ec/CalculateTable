@@ -1,0 +1,20 @@
+
+section {
+    max-width: 420px;
+    height: 500px;
+}
+
+form {
+    width: 80%;
+}
+
+.precio {
+    width: 130px;
+    height: 35px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+
+input {
+    font-size: 1.4rem;
+}

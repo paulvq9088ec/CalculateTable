@@ -49,7 +49,7 @@ form {
 
 label {
     margin: 13% 10% 13% 0;
-    background-color: var(--gris);
+    /* background-color: var(--gris); */
     border: 2px solid white;
     border-radius: 5px;
 }
