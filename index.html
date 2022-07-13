@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Divisor de cuentas</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
         <section>
+            <h1>Dividir la cuenta</h1>
             <form action="">
-                <label for="cantidad">Cantidad</label>
-                <input id="cantidad" type="number" placeholder="Cantidad">
+                
                 <label for="iva">iva</label>
                 <input type="number" name="" id="iva">
+
+                <label for="cantidad">Cantidad 1</label>
+                <input id="cantidad" type="number" placeholder="Cantidad">
+               
+                <label for="cantidad2">Cantidad 2</label>
+                <input id="cantidad2" type="number" placeholder="Cantidad">
+               
+                <label for="cantidad 3">Cantidad 3</label>
+                <input id="cantidad3" type="number" placeholder="Cantidad">
+                
+                <label for="cantidad4">Cantidad 4</label>
+                <input id="cantidad4" type="number" placeholder="Cantidad">
                 <button type="button" class="precio" onclick="calcularPrecio()">Calcular el precio</button>
                 <p id="resultado"></p>
             </form>
